@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+    margin:0;
+}
+
+.content-box {
+    background-color: rgb(255, 72, 0);
+    width:200px;
+    height:200px;
+    padding: 30px;
+    border: 10px solid lightcoral;
+    margin: 50px;
+}
+
+.border-box {
+    background-color: rgb(255, 72, 0);
+    width:200px;
+    /* height:200px; */
+    padding: 30px;
+    border: 10px solid lightcoral;
+    margin: 50px;
+   box-sizing:border-box;
+}
+
+.circle 
+{background-color: darkseagreen;
+    width: 100px;
+    height:100px;
+    boreder- radius:20px;
+}
