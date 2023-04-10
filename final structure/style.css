@@ -1,5 +1,5 @@
 :root {
-    --acceent-color:pink;
+    --accent-color:pink;
     font-size: 2vmin;
 }
 
@@ -58,7 +58,7 @@ body {
     text-align: center;
     padding: 20px 0;
     font-size: 1.2rem;
-    color: var(--acceent-color)
+    color: var(--accent-color)
 }
 
 /* dates */
@@ -86,14 +86,14 @@ body {
 
 .date:hover,
 .date.selected{
-    border-color: var(--acceent-color);
+    border-color: var(--accent-color);
 }
 
 .date.selected{
-    background-color: var(--acceent-color);
+    background-color: var(--accent-color);
     color:white;
 }
 
 .date:hover{
-    border-color:var(--acceent-color);
+    border-color:var(--accent-color);
 }

@@ -91,8 +91,8 @@ class Calendar {
 
     #renderCurrentDate = () => {
         const currentDateEL = this.element.querySelector('.currentDate');
-        this.#dateString = this.#getDataString(this.#year,this.#month,this.#date);
-        currentDateEL.textContent = thiss.#dateString;
+        this.#dateString = this.#getDateString(this.#year,this.#month,this.#date);
+        currentDateEL.textContent = this.#dateString;
     }
 
     #getDateString = (year, month, date) => {
@@ -138,7 +138,7 @@ class Calendar {
         } else {
             // show dates in current month
             dates = i - firstDayInCurrentMonth + 1;
-            dateString = this.#getDaateString(this.#year,this.#month, date);
+            dateString = this.#getDateString(this.#year,this.#month, date);
             dateEL.classList.add('currentMonth');
             if (date === this.#date) {
                 dateEL.classList.add('selected');

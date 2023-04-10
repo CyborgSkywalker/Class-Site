@@ -1,0 +1,103 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(#85cde5, rgb(255, 199, 95), rgb(195, 77, 136), rgb(78, 34, 237), rgb(0, 0, 125));
+    animation: colorChange 5s infinite;
+}
+
+#shine-div {
+    height: 30vh;
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    /*background: radial-gradient(ellipse farthest-corner at right top, #FFFFFF 0%, #ffb3ff 8%, #ff33ff 25%, #800080 62.5%, #b300b3 100%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    animation: colorChange 5s infinite alternate ;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background: radial-gradient(ellipse farthest-corner at left top, #85cde5 0%, rgb(255, 199, 95) 8%, rgb(195, 77, 136) 25%, rgb(0, 0, 125) 62.5%, #000000 100%)
+    }
+    50% {
+      background: radial-gradient(ellipse farthest-corner at top, #85cde5 0%, rgb(255, 199, 95) 8%, rgb(195, 77, 136) 25%, rgb(0, 0, 125) 62.5%, #000000 100%)
+    }
+    100% {
+      background: radial-gradient(ellipse farthest-corner at right top, #85cde5 0%, rgb(255, 199, 95) 8%, rgb(195, 77, 136) 25%, rgb(0, 0, 125) 62.5%, #000000 100%)
+    }
+  }
+
+
+.infinite
+{
+    position: relative;
+    width: 800px;
+    height: 160px;
+    background-color: gray;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotatex(30deg);
+}
+.infinite::before
+{
+    content: ' ';
+    position: absolute ;
+    top: 50%;
+    left:0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, white 0%, rgb(217, 217, 217) 70%, rgb(104, 104, 104) 70%, rgb(134, 133, 133) 100%);
+    background-size: 120px;
+    animation: animateRoad 0.4s linear infinite;
+}
+@keyframes animateRoad
+{
+    0%
+    {
+        background-position: 0px;
+    }
+    100%
+    {
+        background-position: -120px;
+    }
+}
+
+.infinite::after
+{
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 30px;
+    background: rgb(46, 46, 46);
+    bottom: -30px;
+    transform-origin: top;
+    transform: perspective(500px) rotatex(-25deg);
+}
+.shadow 
+{
+position: absolute;
+bottom: -92px;
+left: 50%;
+transform: translateX(-50%);
+width: 95%;
+height: 60px;
+background: linear-gradient(black, transparent);
+opacity: 0.5;
+}
+
+
+

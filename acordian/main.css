@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+ background-image: url(https://i.ytimg.com/vi/WKEP2hF2Pl4/maxresdefault.jpg);
+}
+
+
+header{
+background:transparent;
+padding: 10px;
+color: rgb(204, 251, 251);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+font-size: larger;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(162, 46, 0);
+}
+
+header:hover {
+    background: transparent;
+    opacity: 0.2;
+}
+
+footer{
+background: lightgoldenrodyellow;
+padding: 10px;
+}
+
+.side{
+    color:lightgoldenrodyellow;
+    background:rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.leftside{
+    color: transparent;
+    background:transparent;
+    background-image: url(https://blog.tomsforeign.com/wp-content/uploads/2014/06/inside_drives_bumblebee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    gap:10px;
+    margin: 10px 0;
+    padding: 100px;
+}
+
+.center{
+    color: transparent;
+    background: transparent;
+    background-image: url(https://variety.com/wp-content/uploads/2013/05/optimus-prime-980v2.jpg?w=681&h=383&crop=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px;
+    display: flex;
+    gap:10px;
+    margin: 10px 0;
+}
+.center:hover {
+    background: lightseagreen;
+    opacity: 0.2;
+}
+
+main{
+    display: flex;
+    gap:10px;
+    margin: 10px 0;
+    transition: all 1s;
+}
+
+img {
+    max-width: 100%;
+}
+
+.side{
+    width: 25%;
+    text-align: justify;
+    font-size: large;
+    font-family:fantasy;
+}
+
+.side:hover {
+    background: lightseagreen;
+    opacity: 0.2;
+}
+
+.leftside{
+    width: 35%;
+}
+
+.leftside:hover {
+    background: lightseagreen;
+    opacity: 0.2;
+}
+
+
+.center{
+    width:40%;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+
+    font-family: fantasy;
+    font-size: large;
+    text-align: center;
+    transition:background 1s;
+}
+
+footer:hover {
+    background: lightseagreen;
+    opacity: 0.2;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background:lightslategray;
+        color: rgb(255, 255, 255);
+        text-shadow: 10in;
+    }
+    footer{
+        background: rgb(80, 80, 32);
+        padding: 10px;
+        }
+
+    header{
+        background: rgb(57, 57, 54);
+        padding: 10px;
+        }
+
+        .side{
+            color: azure;
+            background: rgb(25, 25, 24);
+            padding: 10px;
+        }
+
+        .center{
+            background-color: lightslategray;
+        }
+
+   .side {
+    width: 100%;
+
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .leftside {
+        background-image: url(https://www.motionpictures.org/wp-content/uploads/2014/06/bumblebee-gun-still-copy.jpg);
+
+        width: 100%;
+    }
+
+    .leftside{
+        background-color: lightslategray;
+    }
+
+    .center {
+        background-image: url(https://preview.redd.it/what-are-some-of-your-favorite-weapons-in-the-franchise-v0-6h0fs4b7lad81.jpg?width=500&format=pjpg&auto=webp&s=f9b61084063e9c0c761e7829de7e5f55226d5fbb);
+        width: 100%;
+        background-position: center;
+    }
+}

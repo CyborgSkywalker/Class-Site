@@ -43,7 +43,7 @@ body, html{
     position: fixed;
     bottom: 0;
     left:0;
-    animation:move 5s infinite ;
+    animation:move 5s infinite alternate;
 
 }
 
