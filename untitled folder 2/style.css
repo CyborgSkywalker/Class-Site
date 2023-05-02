@@ -1,0 +1,19 @@
+img{
+    max-width: 100%;
+}
+.gallery{
+    background-color: antiquewhite;
+    padding: 80px 0;
+}
+.gallery img{
+    background-color:brown;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0.3);
+    cursor: pointer;
+}
+
+.GRADSHOOTS:hover{
+    background:lightgreen ;
+    opacity:0.2 ;
+}

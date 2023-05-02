@@ -1,0 +1,59 @@
+body {
+    color:rgb(33, 29, 84);
+    background-color:darkgrey;
+    max-width:1200px;
+    margin:0 auto; 
+    font-size: 40px;
+    text-align: center;
+
+}
+
+p {
+    color:rgb(45, 23, 65);
+    font-size: 40px;
+    background-color:navajowhite;
+    border: 3px dashed;
+    padding: 5px;
+    width: 1200px;
+    text-align: center;
+    /* height: 300px; */
+}
+p:hover {background-color:darkblue;
+    background-size: cover;
+    background-position:top;
+    color:rgb(253, 253, 253);
+    text-align: center;
+
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+.new:hover{
+    background-image: url("image2.png");
+    background-size: cover;
+    background-position:top;
+    color:darkcyan;
+}
+
+a {
+   color:rgb(165, 88, 88);
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration:underline;
+    font-size: 50px;
+}
+
+.special {
+    font: size 50px;
+}
+
+.new{
+    background-color:black;
+    height: 600px;
+}

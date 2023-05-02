@@ -1,0 +1,64 @@
+body {
+    color:crimson;
+    background-color: rgba(21, 0, 255, 0.283);
+    max-width:600px;
+    margin:0 auto; 
+
+}
+
+p {
+    color:blueviolet;
+    font-size: 30px;
+    background-color:hsla(59, 57%, 50%, 0.553);
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px auto;
+    width: 600px;
+    text-align: center;
+    /* height: 300px; */
+}
+img{
+    display: block;
+    max-block-size: 5in;
+}
+
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
+}
+
+
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 20px;
+}
+
+
+p:hover{
+    background-color: azure;
+}
+
+a {
+   color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:brown;
+    text-decoration: line-through;
+}
+
+.special {
+    font: size 25px;
+}
+
+.new{
+    background-color: black;
+}
